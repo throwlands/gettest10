@@ -1,0 +1,80 @@
+body	{background:url('img/back.png') center no-repeat fixed #3E4040; font-family: 'Varela Round', sans-serif; height:100%; min-height:100%; margin:0; padding:0; font-size:.8em;	}
+html	{height:100%; min-height:100%; margin:0; padding:0;}
+a	{color:#fcf9f0;}
+.wrap 	{width:400px; margin:100px auto; }
+.tile	{background:url('img/tweed.png'); border-bottom:1px solid #3E4040; color:#fcf9f0;}
+.heading 	{font-weight:400; font-size:1.35em; text-shadow:1px 1px 0px #111;}
+
+
+.grey	{background:#4f4f4f; color:#fcf9f0}
+.dark	{background:#3E4040;}
+.yeller	{background:#fcf9f0;}
+.shadow	 {box-shadow:1px 1px 5px #111; margin:0 6px;}
+
+.ten			{height:10px;}
+.forty			{height:40px;}
+.hundred		{height:100px;}
+.two_hundred	{height:200px;}
+.full			{width:100%; height:99%;}
+.center			{margin:0 auto;}
+
+.login_left		{}	
+.login_right	{width:320px;}
+
+.in_text, .in_select	{background:#343434; box-shadow: 0px 3px 5px #1a1a1a inset; border:1px solid #222; outline:none; padding:4px 5px; border-radius:2px; width:150px; margin:0 0 10px 10px; color:#fcf9f0;font-family: 'Varela Round', sans-serif; }
+.in_select 		{width:160px;}
+.in_submit		{background:#666; color:#fcf9f0; border:1px solid #111; text-shadow:1px 1px 1px #111; border-radius:2px; width:160px; padding:2px 0; font-family: 'Varela Round', sans-serif;  font-weight:bold;}
+.in_submit:hover, .in_text:hover, .in_text:focus	{box-shadow:0px 0px 5px #004CFE; text-shadow:0px 0px 5px #004CFE; border:1px solid #234595;}
+
+.form_wrap		{text-align:right;}
+
+.headbar	{}
+.bodycol_l	{width:300px;}
+.bodycol_m	{}
+.bodycol_r	{width:300px;}
+.bodycol_l, .bodycol_r {}
+
+.softpad	{padding:10px 20px;}
+
+div.pfc-content div.pfc-topic, div.pfc-content div.pfc-footer	{background:none; border:none;}
+div.pfc-content div.pfc-footer p.logo {margin:0 100000px 0 0;}
+div.pfc-content div.pfc-compose	{background:#4F4F4F;}
+div.pfc-content, 
+div.pfc-content div.pfc-messages, 
+div.pfc-content div.pfc-messages .messages-group.from-system-message .message, 
+div.pfc-content div.pfc-messages .messages-group,
+div.pfc-content div.pfc-messages .messages-group .name,
+div.pfc-content div.pfc-messages .messages-group .message,
+div.pfc-content div.pfc-messages .messages-group .date,
+div.pfc-content div.pfc-users,
+div.pfc-content div.pfc-users .role-title	{font-family: 'Varela Round', sans-serif; }
+div.pfc-content div.pfc-users,
+div.pfc-content div.pfc-users .role-title {font-family: 'Varela Round', sans-serif; }
+div.pfc-content div.pfc-users, div.pfc-content div.pfc-users .role-title { color:#fcf9f0; border:none;}
+div.pfc-content div.pfc-compose textarea, div.pfc-content div.pfc-messages, div.pfc-content div.pfc-users {background:#343434; box-shadow: 0px 3px 5px #1a1a1a inset;}
+.logo	{}
+
+.navwrap	{width:100%;}
+.navbutton	{display:inline-block; padding:1.3%; margin:2px 2px 4px;  text-align:center; text-shadow:1px 1px 0px #111; width:20%;}
+.navbutton:active	{box-shadow:0px 0px 1px #111;}
+
+/* OPENING QUESTIONAIRE */
+.sunk_wrap	{background:#3E4040; text-shadow:1px 1px 0px #000; box-shadow:1px 1px 5px #111 inset; padding:10px; margin:10px 0; border-radius:3px;}
+.output ,.slider {display:inline-block;}
+.output	{margin-left:20px;}
+.proglite 	{width:80px; box-shadow:2px 2px 2px #111 inset; background:#3E4040; margin:0px 20px; display:inline-block; border-radius:6px;	 }
+.lit		{background:#7DB308; box-shadow:0px 0px 2px #88C10F; border:1px solid #ADD654; }
+
+.quest_head	{font-weight:bold; color:#7DB308;}
+.question_wrap	{display:none;	}
+.link_buffer	{height:360px;}
+.next_link		{position:relative; left:600px;	}
+.next_link, .prev_link	{padding:5px 10px; border:1px solid #ADD654; border-radius:5px;background:#7DB308; color:black; margin-bottom:10px;}
+.short		{width:50px;}
+.med		{width:114px;}
+.right		{text-align:right;}
+
+/* CORE STYLING */
+
+/* MATCHES */
+.match_item		{margin-bottom:10px;}
